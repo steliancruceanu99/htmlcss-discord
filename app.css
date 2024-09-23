@@ -20,9 +20,13 @@ ol{
 }    
 
 body{
-    background-color:#efefef;
+    background-color:white;
 }
-
+img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
 .w-800{
     max-width: 800px;
 }
@@ -68,6 +72,11 @@ body{
 .col-reverse{
     flex-direction: row-reverse;
 }
+button{
+    border-radius: 999px;
+    padding: 8px;
+    border-style: none;
+}
 /* LAYOUT */
 .w-900{
     max-width: 900px;
@@ -86,6 +95,7 @@ header{
 .row-hd{
     margin: 0;
     padding: 0;
+    gap: 35px;
 }
 /* CONTAINERS FEATURES */
 .dash-cont-1{
@@ -130,22 +140,27 @@ header{
 .main-header{
     justify-content: space-around;
 }
-.violet-container{
-    background-color:#ee81ee;
+.home-slide{
     height: 350px;
     max-width: 700px;
 }
+main > :first-child{
+    background-image: url(./img/jumbo.png);
+    background-size: contain;
+}
 
-
+.bg-grey{
+    background-color: #efefef;
+}
 
 /* DEBUG RULES */
 
 .bg-blue{
     background-color: blue;
 }
-.bg-pink{
+ .bg-pink{
     background-color: pink;
-}
+} 
 
 .bg-yellow{
     background-color: #daa521;
@@ -168,7 +183,7 @@ header{
 }
 .bg-acqua-light{
     background-color:#7dfad0 ;
-}
+} 
 
 
 .debug .container{
