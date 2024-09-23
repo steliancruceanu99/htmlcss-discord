@@ -73,12 +73,12 @@ img{
     flex-direction: row-reverse;
 }
 .scarica-button{
-    font-weight: 500;
+    margin: 0;
+    padding: 0;
 }
 button{
     border-radius: 999px;
     padding: 10px;
-    margin: 15px;
     border-style: none;
 }
 /* LAYOUT */
@@ -154,6 +154,9 @@ h1{
 .main-header{
     justify-content: space-around;
 }
+.main-button{
+    margin: 15px;
+}
 .home-slide{
     height: 350px;
     max-width: 700px;
@@ -166,7 +169,7 @@ main > :first-child{
 .bg-grey{
     background-color: #efefef;
 }
-/* MAIN */
+
 .white-color{
     color: white;
 }
@@ -174,9 +177,17 @@ main > :first-child{
 .bg-black{
     background-color: black;
 }
+
+.bg-green{
+    flex-direction: column;
+    justify-content: center;
+}
+.blue-button{
+    background-color: #265EE9;
+}
 /* DEBUG RULES */
 
- .bg-blue{
+  /* .bg-blue{
     background-color: blue;
 }
  .bg-pink{
@@ -200,7 +211,7 @@ main > :first-child{
 }
 .bg-acqua-light{
     background-color:#7dfad0 ;
-} 
+}  
 
 
 .debug .container{
@@ -223,5 +234,5 @@ main > :first-child{
 
 .debug .bg-acqua{
     border: 2px dashed white;   
-}
+} */
 
