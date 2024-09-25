@@ -15,7 +15,12 @@ ol{
 li{
     line-height: 40px;
 }
+a{
+    text-decoration: none;
+    margin: 0;
+    color: white;
 
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -191,7 +196,7 @@ main > :first-child{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.stelline{
+.stars-bg{
     background-image: url(./img/stars.svg);
     margin-bottom: 20px;
 }
@@ -221,29 +226,22 @@ main > :first-child{
 .al-left{
     text-align: left;
 }
-.icon-and-lg{
-    
-}
+
 .lg-selector{
     display: inline-block;
+    width: 15px;
 }
 .ita-img{
-    width: 18px;
     vertical-align: middle;
+    margin-right:3px ;
 }
-.col-social-icon{
-    width: 15px;
-    margin: 10px;
-}
+
 
 ul > *{
     font-size: 12px;
 }
 .ft-container{
     display: flex;
-}
-.ft-container > *{
-    flex-direction: column;
 }
 
 .ft-row > *{
@@ -255,6 +253,24 @@ ul > *{
 h3,
 h3 > *{
     font-size: 12px;
+}
+h2{
+    margin: 0 ;
+    width: 200px;
+}
+.sel-lingua{
+    display:flex;
+    margin-top: 0;
+}
+.social-icon{
+    display: flex;
+    margin: 0;
+}
+.col-social-icon{
+    margin:0;
+}
+.w-50{
+    width: 1000px;
 }
 /* DEBUG RULES */
 
